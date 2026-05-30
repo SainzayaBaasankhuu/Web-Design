@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8" />
+        <title>SAS</title>
+
+        <link rel="stylesheet" href="styles/Base-sheet1-meyer.css"/>
+        <link rel="stylesheet" href="styles/Base-sheet2-Font format.css">
+        <link rel="stylesheet" href="styles/Base-sheet3-Color format.css">
+        <link rel="stylesheet" href="styles/Base-sheet4-box-styling.css">
+        <link rel="stylesheet" href="styles/Base-sheet5-positioning.css">
+        <link rel="stylesheet" href="styles/Base-sheet6-layout-floating.css">
+        
+        <style>
+            h2#intro{
+                text-shadow: 2px 2px 5px #aeb551, 2px 2px 2px #999;
+            }
+            .inset-shadow {
+                -moz-box-shadow: inset 2px 2px 10px #000;
+                -webkit-box-shadow: inset 2px 2px 10px #000;
+                box-shadow: inset 2px 2px 10 px #000;
+            }
+            body, .inset-shadow, header#masthead, footer, img{
+                border-radius: 10px;
+            }
+            h2#intro {
+                position: relative;
+                animation-duration: 3s;
+                animation-name: slidein;
+            }
+            @keyframes slidein {
+                from {
+                    left: 320px;
+                }
+
+                to {
+                    left: 0px;
+                }
+            }
+        </style>
+    </head>
+    
+    <body>
+        <div class="inset-shadow">
+            <header id="masthead" role="banner">
+                    <nav role="navigation">
+                        <ul id="toc">
+                            <a href="index.html">SAS</a>
+                            <a href="a.html">Multicultural Quest</a>
+                            <a href="b.html">Beppu Trails</a>
+                        </ul>
+                    </nav>
+            </header>
+
+            <div id="content" role="main">
+                <article class="overview">
+                        <h2 id="intro">Baasankhuu Sainzaya 13423014</h2>
+                        <p>
+                            Have you ever heard of <strong>SAS?</strong> Student Activity Station, in short <em>"SAS"</em> is a student organization at APU that organizes local cultural exchange events. 
+                            Through the impactful projects that involve both APU students and Beppu citizens, they get to learn about different unique cultures and make new international friends. Let's get to know the experience of new member Baasankhuu Sainzaya who joined from this spring semester (<i>see sidebar.</i>)
+                        </p>
+                    <section class="method">
+                        <h2 id="hairpin">Multicultural Quest</h2>
+                        <p><img src="Images/Multicultural Quest me speaking.PNG" width="170" height="130" alt="WPCR" />
+                            In <b>Multicultural Quest</b>, we invited APU students to learn more about the place they are living in, Oita. Many students came for the event and enjoyed one day together, exploring Oita through various activities at our campus. The event was free for everyone so participants can enjoy the event despite any financial worries.
+                        </p>
+                    </section>
+                    <section class="method">
+                        <h2 id="rp">Beppu Trails</h2>
+                        <p><img src="Images/Beppu Trails main pic.PNG" width="170" height="130" alt="Rule Protect" /> 
+                            Although our team has helped other teams with couple of other events, <b>Beppu Trails</b> was the last event of the semester. Therefore, we put in extra effort and learned many meaningful lessons from organizing this event. In the event, we scrolled through Beppu especially popular areas such as Kannawa, Beppu Eki and a must-visit "Beppu Tower". 
+                        </p>
+                    </section>
+                </article>
+            </div> 
+
+            <div id="sidebar" role="complimentary">
+                <aside role="complementary">
+                    <h3>My experience at SAS</h3>
+                    <p>As a recipient of MEXT scholarship, it was one of my missions to connect different cultures and promote Japan's marvellous culture and tradition to others. With this goal and personal interest and aspiration, I decided to apply to SAS, and luckily got accepted. 
+                        Ever since becoming SAS member, I am learning a lot from Japan's business etiquettes and organizing cultural events to creating a professional poster that attracts participants.
+                    </p>
+                    <figure id="eff">
+                        <figcaption>
+                            <b>My Student Staff Card</b>
+                        </figcaption>
+                        <img width="175px" src="Images/My SAS card.jpg" alt="wpcr efficiency" />
+                    </figure>
+                </aside>
+            </div>
+     
+            <footer role="contentinfo">
+                <ul id="ft">
+                    <li><address> Author Contact:
+                    <a href="mailto:ba23s6rg@apu.ac.jp">ba23s6rg@apu.ac.jp</a>
+                </address></li>
+                    <li id="cp"><small>&copy; Copyright 2024. All rights reserved.</small></li>
+                    <li id="ts">
+                </ul>
+            </footer>
+        </div>
+    </body>
+</html>
