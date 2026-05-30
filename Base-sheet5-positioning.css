@@ -1,0 +1,26 @@
+/* Page container */
+div.inset-shadow {
+    position: relative;
+}
+
+/* Div positioning */
+/* Main content */
+div#content{
+    position: absolute;
+    top: 90px;
+    left: 10px;
+}
+
+/* Sidebar */
+div#sidebar{
+    position: absolute;
+    top: 120px;
+    right: 20px;
+}
+
+/* Footer */
+footer {
+    position: absolute;
+    bottom: 15px;
+    left: 20px;
+}
