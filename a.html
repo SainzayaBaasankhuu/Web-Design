@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8" />
+        <title>SAS</title>
+
+        <link rel="stylesheet" href="styles/Base-sheet1-meyer.css"/>
+        <link rel="stylesheet" href="styles/Base-sheet2-Font format.css">
+        <link rel="stylesheet" href="styles/Base-sheet3-Color format.css">
+        <link rel="stylesheet" href="styles/Base-sheet4-box-styling.css">
+        <link rel="stylesheet" href="styles/Base-sheet5-positioning.css">
+        <link rel="stylesheet" href="styles/Base-sheet6-layout-floating.css">
+        
+        <style>
+            h2#intro{
+                text-shadow: 2px 2px 5px #aeb551, 2px 2px 2px #999;
+            }
+            .inset-shadow {
+                -moz-box-shadow: inset 2px 2px 10px #4594bb;
+                -webkit-box-shadow: inset 2px 2px 10px #000;
+                box-shadow: inset 2px 2px 10 px #000;
+            }
+            body, .inset-shadow, header#masthead, footer, img{
+                border-radius: 10px;
+            }
+            h2#intro {
+                position: relative;
+                animation-duration: 3s;
+                animation-name: slidein;
+            }
+            @keyframes slidein {
+                from {
+                    left: 320px;
+                }
+
+                to {
+                    left: 0px;
+                }
+            }
+        </style>
+    </head>
+    
+    <body>
+        <div class="inset-shadow">
+            <header id="masthead" role="banner">
+                <nav role="navigation">
+                    <ul id="toc">
+                        <a href="index.html">SAS</a>
+                        <a href="a.html">Multicultural Quest</a>
+                        <a href="b.html">Beppu Trails</a>
+                    </ul>
+                </nav>
+            </header>
+
+            <div id="content" role="main">
+                <article class="overview">
+                        <h2 id="intro">Baasankhuu Sainzaya 13423014</h2>
+                        <p>
+                            For this event, we were tasked to come up with new ideas for the first-ever Multicultural Quest. It was decided that the theme is Oita so we have decided to have ice-breaking games and bamboo-creating session.  
+                        </p>
+                    <section class="method">
+                        <h2 id="hairpin">Ice-breaking game</h2>
+                        <p><img src="Images/Me at Oita museum.PNG" width="130" height="140" alt="WPCR" />
+                            <b>Oita</b> is an amazing city renowned for its Onsen and bamboo production. As a person who enjoys travelling to Oita city, it was fun for me to generate activity ideas that'll help participants feel closer to Oita. I initially proposed as part of the activities to let the participants create presentation and present to each other, but it was not included in the final event. For the final event, we had ice-breaking game, 
+                            where we have asked participants to find commonalities among them, next, to complete the crossword game which has all Oita-related things. 
+                        </p>
+                    </section>
+                    <section class="method">
+                        <h2 id="rp">Bamboo crafting</h2>
+                        <p><img src="Images/bamboo bell.PNG" width="170" height="130" alt="Rule Protect" /> 
+                            For the main part of the event, we invited <em>Bamboo bell craft</em>  teachers and let the participants create bamboo bell for themselves. It seemed a little hard since it's very detailed but at the end, everyone succeeded. 
+                        </p>
+                    </section>
+                </article>
+            </div> 
+
+            <div id="sidebar" role="complimentary">
+                <aside role="complementary">
+                    <h3>My experience at Oita</h3>
+                    <p>Oita is the first city I went to since I came to Japan. My impression was that it's a peaceful, beatiful city and much larger and developed than Beppu. Since it's easy and fast to go to Oita, I go to Oita once in a while to hang out with my friends.  
+                    </p>
+                    <figure id="eff">
+                        <figcaption>
+                            <b>Me at Oita Prefectural Art Museum</b>
+                        </figcaption>
+                        <img width="175px" src="Images/Me with panda.PNG" alt="wpcr efficiency" />
+                    </figure>
+                </aside>
+            </div>
+     
+            <footer role="contentinfo">
+                <ul id="ft">
+                    <li><address> Author Contact:
+                    <a href="mailto:ba23s6rg@apu.ac.jp">ba23s6rg@apu.ac.jp</a>
+                </address></li>
+                    <li id="cp"><small>&copy; Copyright 2024. All rights reserved.</small></li>
+                    <li id="ts">
+                </ul>
+            </footer>
+        </div>
+    </body>
+</html>

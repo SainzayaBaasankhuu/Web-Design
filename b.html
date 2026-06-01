@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8" />
+        <title>SAS</title>
+
+        <link rel="stylesheet" href="styles/Base-sheet1-meyer.css"/>
+        <link rel="stylesheet" href="styles/Base-sheet2-Font format.css">
+        <link rel="stylesheet" href="styles/Base-sheet3-Color format.css">
+        <link rel="stylesheet" href="styles/Base-sheet4-box-styling.css">
+        <link rel="stylesheet" href="styles/Base-sheet5-positioning.css">
+        <link rel="stylesheet" href="styles/Base-sheet6-layout-floating.css">
+        
+        <style>
+            h2#intro{
+                text-shadow: 2px 2px 5px #aeb551, 2px 2px 2px #999;
+            }
+            .inset-shadow {
+                -moz-box-shadow: inset 2px 2px 10px #4594bb;
+                -webkit-box-shadow: inset 2px 2px 10px #000;
+                box-shadow: inset 2px 2px 10 px #000;
+            }
+            body, .inset-shadow, header#masthead, footer, img{
+                border-radius: 10px;
+            }
+            h2#intro {
+                position: relative;
+                animation-duration: 3s;
+                animation-name: slidein;
+            }
+            @keyframes slidein {
+                from {
+                    left: 320px;
+                }
+
+                to {
+                    left: 0px;
+                }
+            }
+        </style>
+    </head>
+    
+    <body>
+        <div class="inset-shadow">
+            <header id="masthead" role="banner">
+                <nav role="navigation">
+                    <ul id="toc">
+                        <a href="index.html">SAS</a>
+                        <a href="a.html">Multicultural Quest</a>
+                        <a href="b.html">Beppu Trails</a>
+                    </ul>
+                </nav>
+            </header>
+
+            <div id="content" role="main">
+                <article class="overview">
+                        <h2 id="intro">Baasankhuu Sainzaya 13423014</h2>
+                        <p>
+                            Although we have faced some challenges to organizing this event and even discussed about cancelling it, we have still successfully completed it.   
+                        </p>
+                    <section class="method">
+                        <h2 id="hairpin">Promoting the event</h2>
+                        <p><img src="Images/Promoting SAS.jpg" width="170" height="130" alt="WPCR" />
+                            Initially, there wasn't many participants who registered, and we almost came to the point to cancel the event due to the low number of participants. Then, the day before the registration was over, we all went to cafeteria and promoted our event together. This was a success and the number of participants increased until the number that we agreed to organize if reached.
+                        </p>
+                    </section>
+                    <section class="method">
+                        <h2 id="rp">Challenges and Activities</h2>
+                        <p><img src="Images/IMG_1316 (1).jpg" width="130" height="170" alt="Rule Protect" /> 
+                            The challenges started all the way starting when we were brainstorming ideas. We couldn't generate interesting activity ideas and spent a long time thinking. After coming up with ideas, we have decided to have a walk around Beppu's famous places including Kannawa, Beppu Eki, and Beppu Tower. At the event day, there was another challenge. It was raining hard! We discussed whether to cancerl the event or not and ultimately, decided to organize despite the heavy rainfall. 
+                        </p>
+                    </section>
+                </article>
+            </div> 
+
+            <div id="sidebar" role="complimentary">
+                <aside role="complementary">
+                    <h3>Seeing Beppu from top</h3>
+                    <p>Seeing Beppu from top was a one-of-a-kind experience. The sea was so beautiful and I could see all the houses and cars. At the top floor, there was cute plushees and other souvenir items. At the floor under it, there was a magical room that makes you feel like you're in the galaxy with help of lighting. 
+                    </p>
+                    <figure id="eff">
+                        <figcaption>
+                            <b>At Beppu Tower</b>
+                        </figcaption>
+                        <img width="175px" src="Images/IMG-1862.jpg" alt="wpcr efficiency" />
+                    </figure>
+                </aside>
+            </div>
+     
+            <footer role="contentinfo">
+                <ul id="ft">
+                    <li><address> Author Contact:
+                    <a href="mailto:ba23s6rg@apu.ac.jp">ba23s6rg@apu.ac.jp</a>
+                </address></li>
+                    <li id="cp"><small>&copy; Copyright 2024. All rights reserved.</small></li>
+                    <li id="ts">
+                </ul>
+            </footer>
+        </div>
+    </body>
+</html>
